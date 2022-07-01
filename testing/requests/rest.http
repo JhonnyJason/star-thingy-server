@@ -4,10 +4,11 @@
 
 ############################################################
 ### local test requests
-POST {{local}}/route
+POST {{local}}/test
 content-type: application/json
 
 {
+    "cargo": "ping"
 }
 
 ############################################################
